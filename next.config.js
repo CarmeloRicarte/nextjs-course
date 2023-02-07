@@ -4,6 +4,13 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
+  images: {
+    remotePatterns: [
+      {
+        hostname: "rickandmortyapi.com",
+      },
+    ],
+  },
 };
 
 module.exports = nextConfig;
