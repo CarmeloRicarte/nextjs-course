@@ -11,7 +11,11 @@ const Navigator: React.FC<Props> = ({ pathNames }) => {
   return (
     <div className={styles.navigator}>
       {pathNames.map((pathName) => (
-        <Link key={pathName.name} href={pathName.path}>
+        <Link
+          className='bg-fuchsia-500 hover:bg-sky-700'
+          key={pathName.name}
+          href={pathName.path}
+        >
           {pathName.name}
         </Link>
       ))}
