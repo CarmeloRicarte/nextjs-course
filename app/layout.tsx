@@ -1,3 +1,5 @@
+import './tailwind-global.scss';
+
 export default function RootLayout({
   children,
 }: {
