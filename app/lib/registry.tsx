@@ -1,9 +1,8 @@
-/* eslint-disable @typescript-eslint/no-unused-expressions */
+'use client';
 import { useServerInsertedHTML } from 'next/navigation';
 import React, { useState } from 'react';
 import { ServerStyleSheet, StyleSheetManager } from 'styled-components';
 
-('use client');
 export default function StyledComponentsRegistry({
   children,
 }: {
