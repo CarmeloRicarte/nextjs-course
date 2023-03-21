@@ -2,6 +2,3 @@ public
 docs
 dist
 node_modules
-next.config.js
-postcss.config.js
-tailwind.config.js
